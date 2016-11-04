@@ -2,7 +2,7 @@
 
 ACLOCAL_AMFLAGS = -I m4
 
-AUTOMAKE_OPTIONS = foreign
+AUTOMAKE_OPTIONS = foreign subdir-objects
 
 # Build . before src so that our all-local and clean-local hooks kicks in at
 # the right time.

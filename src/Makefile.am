@@ -1,5 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 
+AUTOMAKE_OPTIONS = foreign subdir-objects
 if HAVE_ZLIB
 GZCHECKPROGRAMS = zcgzip zcgunzip
 GZHEADERS = google/protobuf/io/gzip_stream.h

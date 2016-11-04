@@ -45,7 +45,8 @@ AS_IF([test "x${ac_cv_env_CXXFLAGS_set}" = "x"],
 
 AC_CANONICAL_TARGET
 
-AM_INIT_AUTOMAKE([1.9 tar-ustar subdir-objects])
+AM_INIT_AUTOMAKE([tar-ustar subdir-objects])
+# AUTOMAKE_OPTIONS([subdir-objects])
 
 AC_ARG_WITH([zlib],
   [AS_HELP_STRING([--with-zlib],
